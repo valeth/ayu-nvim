@@ -103,7 +103,7 @@ Theme.editor = function ()
     Directory         = { fg = c.func },
     ErrorMsg          = { fg = c.white, bg = c.error, style = 'standout' },
     FloatBorder       = { fg = c.panel_border, bg = c.bg },
-    FoldColumn        = { bg = c.bg },
+    FoldColumn        = { fg = c.fg_idle, bg = c.bg },
     Folded            = { fg = c.fg_idle, bg = c.panel_bg },
     IncSearch         = { fg = c.keyword, bg = c.ui },
     LineNr            = { fg = c.guide_normal },
